@@ -1,0 +1,474 @@
+{
+  "events": [
+    {
+      "band": "Band A",
+      "tourDates": [
+        {
+          "date": "2025-02-27",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "New York",
+            "state": "NY",
+            "latitude": 42.7972,
+            "longitude": -110.5514
+          }
+        },
+        {
+          "date": "2025-03-13",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Houston",
+            "state": "TX",
+            "latitude": 41.2408,
+            "longitude": -72.3614
+          }
+        },
+        {
+          "date": "2025-02-14",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Denver",
+            "state": "CO",
+            "latitude": 35.1261,
+            "longitude": -123.242
+          }
+        },
+        {
+          "date": "2025-04-22",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "San Diego",
+            "state": "CA",
+            "latitude": 37.1285,
+            "longitude": -123.4344
+          }
+        },
+        {
+          "date": "2025-04-12",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Seattle",
+            "state": "WA",
+            "latitude": 35.0685,
+            "longitude": -98.4967
+          }
+        }
+      ]
+    },
+    {
+      "band": "Band B",
+      "tourDates": [
+        {
+          "date": "2025-01-04",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Philadelphia",
+            "state": "PA",
+            "latitude": 41.7553,
+            "longitude": -104.9252
+          }
+        },
+        {
+          "date": "2025-03-21",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "San Antonio",
+            "state": "TX",
+            "latitude": 47.9731,
+            "longitude": -105.1409
+          }
+        },
+        {
+          "date": "2025-02-17",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Fort Worth",
+            "state": "TX",
+            "latitude": 27.3212,
+            "longitude": -74.9978
+          }
+        },
+        {
+          "date": "2025-11-06",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Dallas",
+            "state": "TX",
+            "latitude": 44.3711,
+            "longitude": -81.9458
+          }
+        }
+      ]
+    },
+    {
+      "band": "Band C",
+      "tourDates": [
+        {
+          "date": "2025-03-05",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Fort Worth",
+            "state": "TX",
+            "latitude": 26.8912,
+            "longitude": -107.7025
+          }
+        },
+        {
+          "date": "2025-11-18",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Washington",
+            "state": "DC",
+            "latitude": 46.2508,
+            "longitude": -103.6635
+          }
+        },
+        {
+          "date": "2025-04-09",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Chicago",
+            "state": "IL",
+            "latitude": 26.0998,
+            "longitude": -111.554
+          }
+        },
+        {
+          "date": "2025-05-29",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Chicago",
+            "state": "IL",
+            "latitude": 45.5276,
+            "longitude": -73.8775
+          }
+        },
+        {
+          "date": "2025-07-14",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Dallas",
+            "state": "TX",
+            "latitude": 35.8818,
+            "longitude": -75.7875
+          }
+        }
+      ]
+    },
+    {
+      "band": "Band D",
+      "tourDates": [
+        {
+          "date": "2025-07-09",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Jacksonville",
+            "state": "FL",
+            "latitude": 30.0282,
+            "longitude": -109.2483
+          }
+        },
+        {
+          "date": "2025-12-16",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Chicago",
+            "state": "IL",
+            "latitude": 39.6191,
+            "longitude": -114.9028
+          }
+        },
+        {
+          "date": "2025-05-06",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Philadelphia",
+            "state": "PA",
+            "latitude": 36.0942,
+            "longitude": -109.0731
+          }
+        }
+      ]
+    },
+    {
+      "band": "Band E",
+      "tourDates": [
+        {
+          "date": "2025-12-19",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Seattle",
+            "state": "WA",
+            "latitude": 30.2708,
+            "longitude": -105.8673
+          }
+        },
+        {
+          "date": "2025-01-29",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "San Diego",
+            "state": "CA",
+            "latitude": 44.7233,
+            "longitude": -77.5023
+          }
+        },
+        {
+          "date": "2025-07-25",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Dallas",
+            "state": "TX",
+            "latitude": 26.5885,
+            "longitude": -71.125
+          }
+        },
+        {
+          "date": "2025-10-18",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Austin",
+            "state": "TX",
+            "latitude": 30.103,
+            "longitude": -95.5454
+          }
+        },
+        {
+          "date": "2025-11-26",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Charlotte",
+            "state": "NC",
+            "latitude": 28.4289,
+            "longitude": -116.7618
+          }
+        }
+      ]
+    },
+    {
+      "band": "Band F",
+      "tourDates": [
+        {
+          "date": "2025-10-15",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Seattle",
+            "state": "WA",
+            "latitude": 31.3058,
+            "longitude": -90.5094
+          }
+        },
+        {
+          "date": "2025-10-26",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Fort Worth",
+            "state": "TX",
+            "latitude": 33.6879,
+            "longitude": -66.1578
+          }
+        },
+        {
+          "date": "2025-03-12",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Indianapolis",
+            "state": "IN",
+            "latitude": 36.8444,
+            "longitude": -80.4089
+          }
+        },
+        {
+          "date": "2025-02-26",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Phoenix",
+            "state": "AZ",
+            "latitude": 40.0587,
+            "longitude": -78.2673
+          }
+        },
+        {
+          "date": "2025-08-05",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Washington",
+            "state": "DC",
+            "latitude": 26.5247,
+            "longitude": -102.4845
+          }
+        }
+      ]
+    },
+    {
+      "band": "Band G",
+      "tourDates": [
+        {
+          "date": "2025-09-28",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Dallas",
+            "state": "TX",
+            "latitude": 48.3059,
+            "longitude": -74.214
+          }
+        },
+        {
+          "date": "2025-01-06",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Houston",
+            "state": "TX",
+            "latitude": 41.361,
+            "longitude": -93.3188
+          }
+        },
+        {
+          "date": "2025-05-17",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Austin",
+            "state": "TX",
+            "latitude": 27.6773,
+            "longitude": -99.3489
+          }
+        },
+        {
+          "date": "2025-08-21",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "New York",
+            "state": "NY",
+            "latitude": 47.8916,
+            "longitude": -73.3247
+          }
+        }
+      ]
+    },
+    {
+      "band": "Band H",
+      "tourDates": [
+        {
+          "date": "2025-09-14",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Philadelphia",
+            "state": "PA",
+            "latitude": 37.1844,
+            "longitude": -118.7218
+          }
+        },
+        {
+          "date": "2025-11-17",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "San Jose",
+            "state": "CA",
+            "latitude": 45.2001,
+            "longitude": -95.0479
+          }
+        },
+        {
+          "date": "2025-04-12",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Phoenix",
+            "state": "AZ",
+            "latitude": 33.9739,
+            "longitude": -115.4686
+          }
+        },
+        {
+          "date": "2025-09-29",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "New York",
+            "state": "NY",
+            "latitude": 39.3747,
+            "longitude": -96.1723
+          }
+        }
+      ]
+    },
+    {
+      "band": "Band I",
+      "tourDates": [
+        {
+          "date": "2025-07-05",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "San Jose",
+            "state": "CA",
+            "latitude": 30.7469,
+            "longitude": -110.7886
+          }
+        },
+        {
+          "date": "2025-10-18",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Chicago",
+            "state": "IL",
+            "latitude": 27.0557,
+            "longitude": -96.3266
+          }
+        },
+        {
+          "date": "2025-02-05",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Seattle",
+            "state": "WA",
+            "latitude": 43.38,
+            "longitude": -117.4249
+          }
+        }
+      ]
+    },
+    {
+      "band": "Band J",
+      "tourDates": [
+        {
+          "date": "2025-10-09",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Philadelphia",
+            "state": "PA",
+            "latitude": 31.3614,
+            "longitude": -73.5265
+          }
+        },
+        {
+          "date": "2025-08-05",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "San Antonio",
+            "state": "TX",
+            "latitude": 47.2939,
+            "longitude": -80.4394
+          }
+        },
+        {
+          "date": "2025-12-20",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "San Antonio",
+            "state": "TX",
+            "latitude": 42.1108,
+            "longitude": -101.4595
+          }
+        },
+        {
+          "date": "2025-12-10",
+          "venue": "Unknown Venue",
+          "location": {
+            "city": "Jacksonville",
+            "state": "FL",
+            "latitude": 35.5144,
+            "longitude": -94.463
+          }
+        }
+      ]
+    }
+  ]
+}
