@@ -169,3 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+pollstar.json
+pollstar_condensed.json
+pollstar_artists.json
