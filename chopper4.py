@@ -1,15 +1,13 @@
 import numpy as np
 import pandas as pd
 from geopy.distance import geodesic
+from geonamescache import GeonamesCache
 from itertools import permutations
 import json
-#Calculate the distance beteeen all points
-# Sample input
-#bands = {
-#    "Band A": [("2025-03-10", "New York"), ("2025-03-15", "Boston")],
-#    "Band B": [("2025-03-12", "Philadelphia"), ("2025-03-20", "New York")],
-#    "Band C": [("2025-03-18", "Boston"), ("2025-03-25", "Washington D.C.")],
-#}
+#Date range <=7 days
+#Max distance = 50 miles
+gc=GeonamesCache()
+
 bands=json.load(open('pollstar_sample_data.json'))
 
 #locations = {
@@ -26,25 +24,24 @@ def calculate_distance(loc1, loc2):
 
 # Function to optimize
 def find_optimal_itinerary(bands):
+    #Format dataset
     all_dates = []
     for event in bands['events']:
         print(event['band'])
         for tourDate in event['tourDates']:
             all_dates.extend([(tourDate['date'],tourDate['location']['city'],event['band'])])
-    #for band, dates in bands['events'].items():
-    #    all_dates.extend([(date, loc, band) for date, loc in dates])
-
     # Sort by date
-    
     all_dates.sort(key=lambda x: x[0])
     print(all_dates)
     best_itinerary = None
     min_distance = float('inf')
 
-    # Check all permutations of dates
+    #Get distance between all given cities
     print(len(all_dates))
-    perms=permutations(all_dates)
-    for perm in perms:
+#    perms=permutations(all_dates)
+#    for perm in perms:
+    for date in all_dates:
+        date
         print(len(perm))
         current_distance = 0
         for i in range(len(perm) - 1):

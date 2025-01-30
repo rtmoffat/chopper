@@ -1,16 +1,24 @@
 import requests
 import json
 import traceback
+from datetime import datetime,timedelta
 
-url = "https://data.pollstar.com/data/v1/artists/1068/events"
+
+
+#url = "https://data.pollstar.com/data/v1/artists/1068/events"
 
 artists=json.load(open('pollstar_artists.json'))
+now=datetime.now()
+fromDate=now.strftime("%m-%d-%Y")
+toDate=now+timedelta(days=365)
+toDate=toDate.strftime("%m-%d-%Y")
 
+print(artists,fromDate,toDate)
 params={
     "page": 0,
     "pageSize": 50,
-    "fromDate": "01-29-2025",
-    "toDate": "01-29-2029",
+    "fromDate": fromDate,
+    "toDate": toDate,
     "sortAscending": "true",
     "sortColumn": "playdate",
     "newOnly": "false"
@@ -55,10 +63,6 @@ def condense_tourdates(tourdatesFile='pollstar.json'):
             rec={"artist":artist,"date":event['playDate'],"city":event['venue']['location']}
             condensed.append(rec)
     json.dump(condensed, open('pollstar_condensed.json', 'w'),indent=5)
-#response = requests.request("GET", url, headers=headers, params=params)
-#data.append(response.json())
-#print(response.text)
-url = "https://data.pollstar.com/data/v1/artists/1068/events"
 
 artists=json.load(open('pollstar_artists.json'))
 update_tourdates(artists)
